@@ -1,0 +1,10 @@
+import os
+
+def list_files(directory):
+    with os.scandir(directory) as entries:
+        for entry in entries:
+            if entry.is_file():
+                print(entry.name)
+
+# Replace '/path/to/directory' with the desired directory path
+list_files('/path/to/directory')
