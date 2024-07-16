@@ -1,0 +1,8 @@
+Error-1
+-------
+E: Package 'python3-pip' has no installation candidate
+Soulution-1:
+sudo add-apt-repository universe
+sudo apt-get update
+sudo apt install python3-pip
+---------------
