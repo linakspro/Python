@@ -1,0 +1,18 @@
+import platform
+
+def get_system_info():
+    system = platform.system()
+    node = platform.node()
+    release = platform.release()
+    version = platform.version()
+    machine = platform.machine()
+    processor = platform.processor()
+    
+    print(f"System: {system}")
+    print(f"Node Name: {node}")
+    print(f"Release: {release}")
+    print(f"Version: {version}")
+    print(f"Machine: {machine}")
+    print(f"Processor: {processor}")
+
+get_system_info()
