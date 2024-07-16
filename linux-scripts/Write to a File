@@ -1,0 +1,7 @@
+def write_file(file_path, content):
+    with open(file_path, 'w') as file:
+        file.write(content)
+    print(f"Content written to {file_path}")
+
+# Replace '/path/to/file.txt' and 'your content here' with desired values
+write_file('/path/to/file.txt', 'your content here')
